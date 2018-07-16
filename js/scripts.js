@@ -42,6 +42,9 @@
         }, 500);
     });
 
+    // Hover
+    $('[data-toggle="tooltip"]').tooltip();
+
     // Scroll to first element
     $('#lead-down span').click(function() {
         var scrollDistance = $('#lead').next().offset().top;
